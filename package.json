@@ -1,0 +1,19 @@
+{
+  "name": "song-graph",
+  "version": "1.0.0",
+  "description": "A graph ql api for querying songs and artists",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r esm -r dotenv/config src/index.js"
+  },
+  "author": "Hugo Perdomo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "mongoose": "^5.5.1"
+  }
+}
