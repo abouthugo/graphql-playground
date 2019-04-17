@@ -2,8 +2,10 @@ The start of something really cool! This repo will be mainly used to practice Gr
 
 ## Available Scripts
 
-To run the API:
+To run the API (inside the `server` folder):
 #### `yarn start | npm start` 
+
+I also added a small frontend in react to fetch data externally and display it. See the [`frontend`](frontend/) folder for more.
 
 ## :warning: Watch out! 
 
